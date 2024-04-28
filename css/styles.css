@@ -87,11 +87,11 @@ img{
   color: #404bbf;
   
 }
-.sudio-li{
+.studio-li{
   position: relative;
   color: #404bbf;
 }
-.sudio-li::after{ 
+.studio-li::after{ 
   content: '';
   position: absolute;
   left: 0;
