@@ -41,9 +41,7 @@ img{
 }
 .header-container{
   display: flex;
-  justify-content: space-between;
- 
-  
+  justify-content: space-between;  
 }
 .nav-top{
   display: flex;
@@ -55,8 +53,6 @@ img{
   display: flex;
   gap: 40px;
 }
-
-
 .logo {
   font-weight: 700;
   font-family: "Raleway", sans-serif;
@@ -65,7 +61,7 @@ img{
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-right: 76px;
+
 }
 
 .logo-part {
@@ -134,6 +130,7 @@ img{
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center; 
+  margin: auto;
 }
 .section-hero-title{
   font-size: 56px;
@@ -232,7 +229,7 @@ img{
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px; 
   background: #fff;
-  padding: 0px 0px 32px 0px;
+  /*padding: 0px 0px 32px 0px;*/
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .our-team-top-title{
@@ -262,6 +259,7 @@ img{
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  margin:8px;
 }
 
 .social-media-list{
@@ -410,16 +408,14 @@ img{
   display: flex;
   align-items: baseline
 }
-.social-media-container{
-  margin-left: 120px;
-}
+
 .footer-div{
   margin-right: 120px;
 }
 .social-media-list-footer{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: row;
   gap: 16px;
   width: 232px;
